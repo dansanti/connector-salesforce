@@ -13,7 +13,7 @@
                  attrs="{'invisible': [('is_company', '=', 'True')]}"/>
         </field>
 
-        <xpath expr="//form[@string='Contact']/sheet//field[@name='mobile']"
+        <xpath expr="//form/sheet//field[@name='mobile']"
                position="after">
           <field name='sf_assistant_phone'/>
           <field name='sf_other_phone'/>
