@@ -14,7 +14,7 @@
               <field name="version"/>
             </group>
             <notebook>
-              <page string="Actions">
+              <page name="actions" string="Actions">
 
               </page>
               <page string="Authentication Configuration">
@@ -97,7 +97,7 @@
                   </group>
                 </group>
               </page>
-              <page string="Import/Export Configuration">
+              <page name="import_export_configuration" string="Import/Export Configuration">
 
               </page>
             </notebook>

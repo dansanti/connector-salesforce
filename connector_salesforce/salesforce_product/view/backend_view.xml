@@ -7,7 +7,7 @@
       <field name="inherit_id" ref="connector_salesforce_backend_form"/>
       <field name="priority" eval="18"/>
       <field name="arch" type="xml">
-        <page string="Actions" position="inside">
+        <page name="actions" position="inside">
           <separator string="From Salesforce Product Towards ERP"
                      attrs="{'invisible': [('sf_product_master', '=', 'erp')]}"/>
           <separator string="From ERP Towards Salesforce product"
@@ -46,7 +46,7 @@
             <br/>
           </group>
         </page>
-        <page string="Import/Export Configuration" position="inside">
+        <page name="import_export_configuration" position="inside">
           <separator string="Product Configuration"/>
           <div>Select the master for the products. <br/>
           Bidirectional/Conflicts are not managed so <span style="color:red">once set

@@ -6,7 +6,7 @@
       <field name="model">connector.salesforce.backend</field>
       <field name="inherit_id" ref="connector_salesforce_backend_form"/>
       <field name="arch" type="xml">
-        <page string="Actions" position="inside">
+        <page name='actions' position="inside">
           <separator string="From Salesforce Accounts Towards ERP"/>
           <div>
             In Salesforce you can create an "Account" without any "Contacts"
